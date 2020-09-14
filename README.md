@@ -26,7 +26,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> my_ledger = Ledger('test/resources/test_ledger.csv')
 ```
 
-The above commands parse an input ledger file and creates a ledger object.
+The above commands parse an input ledger file and create a ledger object.
 
 ```bash
 >>> my_ledger.balance('mary')
@@ -49,7 +49,7 @@ We may also get the balance only up to a given input date:
 >>> 
 ```
 
-Note the `date()` constructor, which parses an input date (must be ISO format).
+Note the `date()` constructor, which parses an input date string (currently only ISO is supported).
 
 ## Running Unit Tests
 
