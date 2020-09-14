@@ -56,6 +56,7 @@ Note the `date()` constructor, which parses an input date (must be ISO format).
 Install all the project dependencies in your Python environment:
 
     pip install -r requirements.txt
+    pip install -r requirements-test.txt
 
 Execute the following command to run unit tests:
 
